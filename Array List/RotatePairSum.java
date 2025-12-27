@@ -16,9 +16,9 @@ public class RotatePairSum {
     }
     int n = List.size();
     if(List.get(lp) + List.get(rp) < target) {
-        lp = (lp+1) % n;
+        lp = (lp+1)%n;
     } else {
-        rp = (lp+rp-1)%n;
+        rp = (n+rp-1)%n;
     }
    }
   return false;

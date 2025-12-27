@@ -1,5 +1,5 @@
 import java.util.*;
-public class BruteForce {
+public class ContainerWithmostWater {
    public static int StoreWater(ArrayList<Integer> height) {
     int MaxWater=0;
     for(int i=0;i<height.size();i++) {
